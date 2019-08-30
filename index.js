@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine, name) {
   return(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
 }
 
-
+     var customercount = 0
 function takeANumber2() {
      customercount++
      console.log(`You are customer number ${customercount}`)
